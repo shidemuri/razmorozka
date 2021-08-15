@@ -22,7 +22,8 @@ public class QueueSkip extends Module {
 			return;
 		}
 		Minecraft.getMinecraft().player.sendMessage(new TextComponentString(ChatFormatting.GOLD +  "Connecting to the server..."));
-		Minecraft.getMinecraft().displayGuiScreen(new GuiConnecting(null, mc, "play.oldfag.org", 25565));
+		Minecraft.getMinecraft().displayGuiScreen(new GuiConnecting(null, mc, "2b2t.org", 25565));
+		//fuckin faggot do a shit that works
 		disable();
 	}
 }
